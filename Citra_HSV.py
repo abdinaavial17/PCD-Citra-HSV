@@ -3,7 +3,7 @@ import numpy as np
 from scipy import stats
 
 # load image
-img = cv2.imread('anime1.jpeg')
+img = cv2.imread('boat.jpg')
 
 # convert image to HSV
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
